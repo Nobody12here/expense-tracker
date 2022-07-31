@@ -1,0 +1,27 @@
+.Card{
+	max-width: 350px;
+	background-color:black ;
+	display: flex;
+
+}
+.Box{
+	border-radius: 10px;
+	background-color: #c1c1df;
+	display: flex;
+	flex-direction: column;
+	max-width: 350px;
+	margin: auto;
+	padding: 20px;
+}
+.input{
+	background-color: white;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+.Items{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
