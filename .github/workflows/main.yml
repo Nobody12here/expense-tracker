@@ -33,4 +33,4 @@ jobs:
     - name: Build application using yarn
       run: yarn build
     - name: Deploy on surge
-      run: surge ./build expense-tracker-app-22.surge.sh --token ${{secrets.TOKEN_SURGE}}
+      run: surge ./build expense-tracker-app-22.surge.sh --token ${{secrets.SURGE_TOKEN}}
